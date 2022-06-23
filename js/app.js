@@ -73,16 +73,16 @@ function questionSix() {
     console.log(age);
     console.log(typeof age);
 
-    if (age === 41) {
-      alert('Well done! I am 41 years young!');
+    if (age === 43) {
+      alert('Well done! I am 43 years young!');
       break;
     }
 
-    else if (age >= 25 && age < 37) {
+    else if (age >= 25 && age < 39) {
       alert('Guess higher, but thank you!');
     }
 
-    else if (age >= 37 && age < 41) {
+    else if (age >= 39 && age < 43) {
       alert('Really close, but a bit higher.');
     }
 
@@ -90,11 +90,11 @@ function questionSix() {
       alert('wow, I look THAT old? Guess lower.');
     }
 
-    else if (age > 41 && age <= 44) {
+    else if (age > 43 && age <= 44) {
       alert('REALLY close, but just a bit lower');
     }
     if (i === 3) {
-      alert('oh no! You are out of guesses, I am 41.');
+      alert('oh no! You are out of guesses, I am 43.');
     }
   }
 
